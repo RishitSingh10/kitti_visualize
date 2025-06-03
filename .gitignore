@@ -10,4 +10,4 @@ wheels/
 .venv
 
 # Env vars
-./env_vars.txt
+env_vars.txt
