@@ -512,6 +512,7 @@ dependencies = [
     { name = "numpy" },
     { name = "open3d" },
     { name = "opencv-python" },
+    { name = "pykitti" },
 ]
 
 [package.metadata]
@@ -521,6 +522,7 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.2.6" },
     { name = "open3d", specifier = ">=0.19.0" },
     { name = "opencv-python", specifier = ">=4.11.0.86" },
+    { name = "pykitti", specifier = ">=0.3.1" },
 ]
 
 [[package]]
@@ -963,6 +965,21 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/7c/2d/c3338d48ea6cc0feb8446d8e6937e1408088a72a39937982cc6111d17f84/pygments-2.19.1.tar.gz", hash = "sha256:61c16d2a8576dc0649d9f39e089b5f02bcd27fba10d8fb4dcc28173f7a45151f", size = 4968581 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/8a/0b/9fcc47d19c48b59121088dd6da2488a49d5f72dacf8262e2790a1d2c7d15/pygments-2.19.1-py3-none-any.whl", hash = "sha256:9ea1544ad55cecf4b8242fab6dd35a93bbce657034b0611ee383099054ab6d8c", size = 1225293 },
+]
+
+[[package]]
+name = "pykitti"
+version = "0.3.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "pillow" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/c3/54/1ebabd74a3f4306960a014a1201cc9496fb77eae214a97837f9c47e2d2a2/pykitti-0.3.1.tar.gz", hash = "sha256:ca55411c7173bb92e58b052635e3e82ac3f7de58a4c2496cf4a6dfc8e361b92d", size = 9716 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c3/7e/e2b71b9221ccb8503dce9673e3cb36edcdc314ec374f9e69e6d38ed1abde/pykitti-0.3.1-py2.py3-none-any.whl", hash = "sha256:5cde227d6f8ae1cf75ecb656990eb6aaf1b31e6d6877f519d1570e0c9414c9c4", size = 13160 },
 ]
 
 [[package]]

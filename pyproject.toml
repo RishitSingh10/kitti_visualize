@@ -10,4 +10,5 @@ dependencies = [
     "numpy>=2.2.6",
     "open3d>=0.19.0",
     "opencv-python>=4.11.0.86",
+    "pykitti>=0.3.1",
 ]
